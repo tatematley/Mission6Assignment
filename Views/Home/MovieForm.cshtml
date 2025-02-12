@@ -1,0 +1,57 @@
+@model Application
+@{
+    
+}
+
+<h1>Add to Joel's Movie Collection</h1>
+<br/>
+
+<form method="post">
+    <fieldset>
+        <label for="category">Category:</label>
+        <input asp-for="Category" id="category" required/>
+        <br/><br/>
+
+        <label for="title">Title:</label>
+        <input asp-for="Title" id="title" required>
+        <br/><br/>
+
+        <label for="year">Year:</label>
+        <input asp-for="Year" id="year" required>
+        <br/><br/>
+
+        <label for="director">Director:</label>
+        <input asp-for="Director" id="director" required/>
+        <br/><br/>
+
+        <label for="rating">Rating:</label>
+        <select asp-for="Rating" id="rating" required>
+            <option value="g">G</option>
+            <option value="pg">PG</option>
+            <option value="pg13">PG-13</option>
+            <option value="r">R</option>
+        </select>
+        <br/><br/>
+
+        <label>Edited:</label>
+        <div>
+            <label for="edited-true">Yes</label>
+            <input asp-for="Edited" type="radio" id="edited-true" name="edited" value="true">
+            <label for="edited-false">No</label>
+            <input asp-for="Edited" type="radio" id="edited-false" name="edited" value="false">
+        </div>
+        <br/>
+
+        <label for="lent">Lent to:</label>
+        <input asp-for="LentTo" id="lent"></input>
+        <br/><br/>
+
+        <label for="notes">Notes:</label>
+        <textarea asp-for="Notes" id="notes" size="25" placeholder="Enter notes here..."></textarea>
+        <br/><br/>
+    </fieldset>
+
+    <button type="submit"> Submit Movie </button>
+</form>
+    
+
