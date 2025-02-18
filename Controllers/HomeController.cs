@@ -36,4 +36,11 @@ public class HomeController : Controller
         _context.SaveChanges();
         return RedirectToAction("MovieForm");
     }
+
+    public IActionResult MovieList()
+    {
+        var applications = _context.Applications
+            .OrderBy(x => x.Title).ToList();
+        return View(applications);
+    }
 }

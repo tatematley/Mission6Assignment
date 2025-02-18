@@ -156,3 +156,4 @@
 /Users/tatematley/RiderProjects/Mission06_Matley/Mission06_Matley/obj/Debug/net8.0/Mission06_Matley.pdb
 /Users/tatematley/RiderProjects/Mission06_Matley/Mission06_Matley/obj/Debug/net8.0/Mission06_Matley.genruntimeconfig.cache
 /Users/tatematley/RiderProjects/Mission06_Matley/Mission06_Matley/obj/Debug/net8.0/ref/Mission06_Matley.dll
+/Users/tatematley/RiderProjects/Mission06_Matley/Mission06_Matley/obj/Debug/net8.0/Mission06_Matley.sourcelink.json

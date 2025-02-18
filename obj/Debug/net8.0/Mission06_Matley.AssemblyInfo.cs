@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission06_Matley")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2796b1ed78cbfecea45ed8f4a8a1971c64b5a91")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission06_Matley")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission06_Matley")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
