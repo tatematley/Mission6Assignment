@@ -9,6 +9,11 @@ namespace Mission06_Matley.Models
         {
             
         }
-        public DbSet<Application> Applications { get; set; }
+        public DbSet<Movies> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+        }
     }
 }

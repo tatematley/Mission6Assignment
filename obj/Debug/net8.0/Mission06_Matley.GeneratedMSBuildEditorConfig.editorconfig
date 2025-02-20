@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/tatematley/RiderProjects/Mission06_Matley/Mission06_Matley
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/tatematley/RiderProjects/Mission06_Matley/Mission06_Matley/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/tatematley/RiderProjects/Mission06_Matley/Mission06_Matley/Views/Home/GetToKnowJoel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZXRUb0tub3dKb2VsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
